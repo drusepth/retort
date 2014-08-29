@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  context_id: 
+  trigger: MyString
+  response: MyString
+
+two:
+  context_id: 
+  trigger: MyString
+  response: MyString
