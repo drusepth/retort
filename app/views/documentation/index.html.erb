@@ -1,0 +1,29 @@
+<h1>Retort</h1>
+
+<h2>What is Retort?</h2>
+<p>
+	Retort allows you to store directional tuples representing observedstimuli and response. Once stored, background jobs queue up to compute probability and frequency analysis, letting you quickly query for things like the most likely response to a stimuli, the probability that a given stimuli will respond in a specific response, or what stimuli you should invoke to produce a given response.
+</p>
+
+<h2>What kind of things can <em>I</em> use Retort for?</h2>
+<p>
+	Any situation that has an outcome determined solely on a single prior state is fair game for Retort. In laymans terms, here's some examples:
+
+	<ul>
+		<li>Responses to phrases (e.g. querying "what's up" might return "not much", "hanging out", etc)</li>
+		<li>The next move most often taken by an opponent in a game given its current state</li>
+	</ul>
+</p>
+
+<h2>How do I use it?</h2>
+<p>
+	Retort is available solely over API, detailed below. You will need one thing to get started: a <em>context</em>. Each of your stimuli/response pairs will be encapsulated within your context, guaranteeing your data will not conflict with anyone else's, and allowing you to naturally segregate your data when appropriate. There is no limit on the number of contexts you can create.
+</p>
+<p>
+	Once you have a context, you simply pass along its token on each of the API requests you make. Easy!
+</p>
+
+<h2>Creating a context</h2>
+<p>
+	You can do it here!
+</p>
